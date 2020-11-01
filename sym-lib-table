@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr ""))
+  (lib (name ul_CL05A104KA5NNNC)(type Legacy)(uri ${KIPRJMOD}/lib/ul_CL05A104KA5NNNC.lib)(options "")(descr ""))
+  (lib (name ul_PIC32MX340F512H80IMR)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PIC32MX340F512H80IMR.lib)(options "")(descr ""))
+  (lib (name ul_PTS647SK38SMTR2LFS)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PTS647SK38SMTR2LFS.lib)(options "")(descr ""))
+  (lib (name ul_CL10A106MQ8NNNC)(type Legacy)(uri ${KIPRJMOD}/lib/ul_CL10A106MQ8NNNC.lib)(options "")(descr ""))
+)
