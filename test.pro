@@ -1,4 +1,4 @@
-update=10/31/2020 10:01:25 PM
+update=11/2/2020 4:47:09 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,7 +23,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=test.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=1
 AllowBlindVias=1
@@ -36,6 +36,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.2032
+TrackWidth3=0.254
+TrackWidth4=0.508
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -70,13 +73,13 @@ Name=Front_Copper
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=3.3V_Power
-Type=1
-Enabled=1
+Name=In1.Cu
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
-Name=GND
-Type=1
-Enabled=1
+Name=In2.Cu
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
