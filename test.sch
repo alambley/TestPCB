@@ -1152,4 +1152,92 @@ Wire Wire Line
 Wire Wire Line
 	9600 5150 9600 5950
 NoConn ~ 9500 5050
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FA5E786
+P 11150 600
+F 0 "H4" H 10900 650 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 550 50  0000 L CNN
+F 2 "mod:test" H 11150 600 50  0001 C CNN
+F 3 "~" H 11150 600 50  0001 C CNN
+	1    11150 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FA5F9BF
+P 11100 6300
+F 0 "H3" H 10900 6400 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10300 6300 50  0000 L CNN
+F 2 "mod:test" H 11100 6300 50  0001 C CNN
+F 3 "~" H 11100 6300 50  0001 C CNN
+	1    11100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR026
+U 1 1 5FA6206F
+P 550 700
+F 0 "#PWR026" H 550 450 50  0001 C CNN
+F 1 "GNDREF" H 650 550 50  0000 C CNN
+F 2 "" H 550 700 50  0001 C CNN
+F 3 "" H 550 700 50  0001 C CNN
+	1    550  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FA5E21B
+P 550 600
+F 0 "H1" H 650 649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 650 558 50  0000 L CNN
+F 2 "mod:test" H 550 600 50  0001 C CNN
+F 3 "~" H 550 600 50  0001 C CNN
+	1    550  600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR029
+U 1 1 5FA6E512
+P 11150 700
+F 0 "#PWR029" H 11150 450 50  0001 C CNN
+F 1 "GNDREF" H 11050 550 50  0000 C CNN
+F 2 "" H 11150 700 50  0001 C CNN
+F 3 "" H 11150 700 50  0001 C CNN
+	1    11150 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR028
+U 1 1 5FA6FBB2
+P 11100 6400
+F 0 "#PWR028" H 11100 6150 50  0001 C CNN
+F 1 "GNDREF" H 10900 6350 50  0000 C CNN
+F 2 "" H 11100 6400 50  0001 C CNN
+F 3 "" H 11100 6400 50  0001 C CNN
+	1    11100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR027
+U 1 1 5FA7C00B
+P 650 6400
+F 0 "#PWR027" H 650 6150 50  0001 C CNN
+F 1 "GNDREF" H 655 6227 50  0000 C CNN
+F 2 "" H 650 6400 50  0001 C CNN
+F 3 "" H 650 6400 50  0001 C CNN
+	1    650  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FA60A4E
+P 650 6300
+F 0 "H2" H 750 6349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 750 6258 50  0000 L CNN
+F 2 "mod:test" H 650 6300 50  0001 C CNN
+F 3 "~" H 650 6300 50  0001 C CNN
+	1    650  6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

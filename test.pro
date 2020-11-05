@@ -1,4 +1,4 @@
-update=11/5/2020 4:15:56 PM
+update=11/5/2020 5:04:23 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../Documents/test_output/rev2/
+PlotDirectoryName=../../Documents/test_output/PIC32MX_Dev_Board_rev4/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -64,7 +64,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.2
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
