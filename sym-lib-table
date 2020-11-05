@@ -4,4 +4,5 @@
   (lib (name ul_PIC32MX340F512H80IMR)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PIC32MX340F512H80IMR.lib)(options "")(descr ""))
   (lib (name ul_PTS647SK38SMTR2LFS)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PTS647SK38SMTR2LFS.lib)(options "")(descr ""))
   (lib (name ul_CL10A106MQ8NNNC)(type Legacy)(uri ${KIPRJMOD}/lib/ul_CL10A106MQ8NNNC.lib)(options "")(descr ""))
+  (lib (name ul_PIC32MX340F512H80VPT)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PIC32MX340F512H80VPT.lib)(options "")(descr ""))
 )
