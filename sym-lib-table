@@ -5,4 +5,7 @@
   (lib (name ul_PTS647SK38SMTR2LFS)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PTS647SK38SMTR2LFS.lib)(options "")(descr ""))
   (lib (name ul_CL10A106MQ8NNNC)(type Legacy)(uri ${KIPRJMOD}/lib/ul_CL10A106MQ8NNNC.lib)(options "")(descr ""))
   (lib (name ul_PIC32MX340F512H80VPT)(type Legacy)(uri ${KIPRJMOD}/lib/ul_PIC32MX340F512H80VPT.lib)(options "")(descr ""))
+  (lib (name AZ1117EH-3.3TRG1)(type Legacy)(uri ${KIPRJMOD}/lib/AZ1117EH-3.3TRG1.lib)(options "")(descr ""))
+  (lib (name AZ1117EH-5.0TRG1)(type Legacy)(uri ${KIPRJMOD}/lib/AZ1117EH-5.0TRG1.lib)(options "")(descr ""))
+  (lib (name USB4085-GF-A_REVA)(type Legacy)(uri ${KIPRJMOD}/lib/USB4085-GF-A_REVA.lib)(options "")(descr ""))
 )
