@@ -291,22 +291,6 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # USB4085-GF-A_REVA_USB4085-GF-A_REVA
 #
 DEF USB4085-GF-A_REVA_USB4085-GF-A_REVA J 0 40 N Y 1 L N
@@ -404,14 +388,13 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pspice_C
+# test-rescue_C-pspice
 #
-DEF pspice_C C 0 10 Y Y 1 F N
+DEF test-rescue_C-pspice C 0 10 Y Y 1 F N
 F0 "C" 100 100 50 V V C CNN
-F1 "pspice_C" 100 -100 50 V V C CNN
+F1 "test-rescue_C-pspice" 100 -100 50 V V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-ALIAS C
 DRAW
 P 2 0 1 0 -100 -20 100 -20 N
 P 2 0 1 0 0 20 100 20 N

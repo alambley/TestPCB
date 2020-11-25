@@ -1,4 +1,4 @@
-update=11/23/2020 11:29:56 PM
+update=Tue 24 Nov 2020 04:18:47 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,17 +36,16 @@ MinMicroViaDiameter=0.2032
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.2
 TrackWidth1=0.2032
-TrackWidth2=0.254
-TrackWidth3=0.3048
-TrackWidth4=0.381
+TrackWidth2=0.2032
+TrackWidth3=0.635
 ViaDiameter1=0.6096
 ViaDrill1=0.3048
 dPairWidth1=0.2032
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=0.635
-SilkTextSizeH=0.635
+SilkTextSizeV=0.889
+SilkTextSizeH=0.889
 SilkTextSizeThickness=0.127
 SilkTextItalic=0
 SilkTextUpright=1

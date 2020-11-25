@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PIC32MX Dev Board"
-Date "2020-11-05"
-Rev "4"
+Date "2020-11-24"
+Rev "5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -48,7 +48,6 @@ Wire Wire Line
 	4450 2050 4450 1850
 Wire Wire Line
 	4450 1850 4400 1850
-NoConn ~ 4400 1950
 NoConn ~ 3900 2550
 NoConn ~ 3900 2650
 NoConn ~ 3900 2750
@@ -118,7 +117,7 @@ F 3 "" H 8400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:C C7
+L test-rescue:C-pspice C7
 U 1 1 5FD9384F
 P 8300 3650
 F 0 "C7" V 8450 3650 60  0000 L CNN
@@ -317,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3750 3600 3750
 $Comp
-L pspice:C C3
+L test-rescue:C-pspice C3
 U 1 1 5FA6CD8B
 P 3500 4400
 F 0 "C3" H 3300 4350 60  0000 L CNN
@@ -584,7 +583,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4250 3200 4250
 $Comp
-L pspice:C C2
+L test-rescue:C-pspice C2
 U 1 1 5FD77597
 P 3450 5000
 F 0 "C2" H 3250 4950 60  0000 L CNN
@@ -693,7 +692,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3300 3450 3250
 $Comp
-L pspice:C C1
+L test-rescue:C-pspice C1
 U 1 1 5FA64A53
 P 3450 3400
 F 0 "C1" H 3200 3400 60  0000 L CNN
@@ -733,8 +732,8 @@ $Comp
 L Device:R_Small_US R6
 U 1 1 5FA522C7
 P 3300 4250
-F 0 "R6" V 3507 4250 50  0000 C CNN
-F 1 "10Ω" V 3416 4250 50  0000 C CNN
+F 0 "R6" V 3400 4300 50  0000 C CNN
+F 1 "10Ω" V 3400 4150 50  0000 C CNN
 F 2 "mod:0603" V 3230 4250 50  0001 C CNN
 F 3 "~" H 3300 4250 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" V 3300 4250 50  0001 C CNN "Mfr"
@@ -796,7 +795,7 @@ L Connector_Generic:Conn_01x20 J6
 U 1 1 5FE40A72
 P 9100 3100
 F 0 "J6" H 9180 3092 50  0000 L CNN
-F 1 "Digital GPIO" H 9180 3001 50  0000 L CNN
+F 1 "Digital" H 9180 3001 50  0000 L CNN
 F 2 "mod:02x20" H 9100 3100 50  0001 C CNN
 F 3 "~" H 9100 3100 50  0001 C CNN
 F 4 "Samtec Inc." H 9100 3100 50  0001 C CNN "Mfr"
@@ -999,9 +998,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 1450 8600 1450
 Connection ~ 7700 1600
-Connection ~ 8600 1450
-Wire Wire Line
-	8600 1450 8600 1550
 $Comp
 L AZ1117EH-5.0TRG1:AZ1117EH-5.0TRG1 U3
 U 1 1 600BB4AF
@@ -1014,17 +1010,6 @@ F 4 "Diodes Incorporated" H 6600 1300 50  0001 C CNN "Mfr"
 F 5 "AZ1117EH-5.0TRG1" H 6600 1300 50  0001 C CNN "Mfr #"
 	1    6600 1300
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDREF #PWR029
-U 1 1 600C24E5
-P 8600 1550
-F 0 "#PWR029" H 8600 1300 50  0001 C CNN
-F 1 "GNDREF" V 8605 1422 50  0001 R CNN
-F 2 "" H 8600 1550 50  0001 C CNN
-F 3 "" H 8600 1550 50  0001 C CNN
-	1    8600 1550
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR022
@@ -1121,7 +1106,7 @@ L Connector_Generic:Conn_01x10 J1
 U 1 1 6023AEC2
 P 1850 4650
 F 0 "J1" H 2150 4900 50  0000 C CNN
-F 1 "Analog GPIO" H 2150 4800 50  0000 C CNN
+F 1 "Analog" H 2150 4800 50  0000 C CNN
 F 2 "mod:02x05" H 1850 4650 50  0001 C CNN
 F 3 "~" H 1850 4650 50  0001 C CNN
 F 4 "Samtec Inc." H 1850 4650 50  0001 C CNN "Mfr"
@@ -1275,7 +1260,7 @@ Wire Wire Line
 	4950 1200 4950 1550
 Connection ~ 6200 1400
 $Comp
-L pspice:C C6
+L test-rescue:C-pspice C6
 U 1 1 604CCE88
 P 7100 1300
 F 0 "C6" H 6950 1150 60  0000 L CNN
@@ -1385,7 +1370,7 @@ Wire Wire Line
 	5150 1400 5150 1550
 Connection ~ 5150 1550
 $Comp
-L pspice:C C4
+L test-rescue:C-pspice C4
 U 1 1 60457AC1
 P 5050 1550
 F 0 "C4" V 4800 1500 60  0000 L CNN
@@ -1403,7 +1388,7 @@ Wire Wire Line
 	6050 1400 5950 1400
 Connection ~ 6050 1400
 $Comp
-L pspice:C C5
+L test-rescue:C-pspice C5
 U 1 1 60441459
 P 6050 1300
 F 0 "C5" H 6000 1600 60  0000 L CNN
@@ -1438,7 +1423,7 @@ F 3 "~" H 9200 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pspice:C C10
+L test-rescue:C-pspice C10
 U 1 1 5FE82939
 P 9850 5000
 F 0 "C10" V 9650 5100 50  0000 C CNN
@@ -1449,7 +1434,7 @@ F 3 "~" H 9850 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pspice:C C9
+L test-rescue:C-pspice C9
 U 1 1 5FE7EDE4
 P 9850 4700
 F 0 "C9" V 9585 4700 50  0000 C CNN
@@ -1531,94 +1516,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 1450 8000 1400
 $Comp
-L power:GNDREF #PWR039
-U 1 1 5FA6FBB2
-P 11100 6400
-F 0 "#PWR039" H 11100 6150 50  0001 C CNN
-F 1 "GNDREF" H 10900 6350 50  0001 C CNN
-F 2 "" H 11100 6400 50  0001 C CNN
-F 3 "" H 11100 6400 50  0001 C CNN
-	1    11100 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5FA5F9BF
-P 11100 6300
-F 0 "H3" H 10900 6400 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10300 6300 50  0000 L CNN
-F 2 "mod:#6" H 11100 6300 50  0001 C CNN
-F 3 "~" H 11100 6300 50  0001 C CNN
-	1    11100 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR040
-U 1 1 5FA6E512
-P 11150 700
-F 0 "#PWR040" H 11150 450 50  0001 C CNN
-F 1 "GNDREF" H 11050 550 50  0001 C CNN
-F 2 "" H 11150 700 50  0001 C CNN
-F 3 "" H 11150 700 50  0001 C CNN
-	1    11150 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5FA5E786
-P 11150 600
-F 0 "H4" H 10900 650 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10400 550 50  0000 L CNN
-F 2 "mod:#6" H 11150 600 50  0001 C CNN
-F 3 "~" H 11150 600 50  0001 C CNN
-	1    11150 600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5FA60A4E
-P 650 6300
-F 0 "H2" H 750 6349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 750 6258 50  0000 L CNN
-F 2 "mod:#6" H 650 6300 50  0001 C CNN
-F 3 "~" H 650 6300 50  0001 C CNN
-	1    650  6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR02
-U 1 1 5FA7C00B
-P 650 6400
-F 0 "#PWR02" H 650 6150 50  0001 C CNN
-F 1 "GNDREF" H 655 6227 50  0001 C CNN
-F 2 "" H 650 6400 50  0001 C CNN
-F 3 "" H 650 6400 50  0001 C CNN
-	1    650  6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5FA5E21B
-P 550 600
-F 0 "H1" H 650 649 50  0000 L CNN
-F 1 "MountingHole_Pad" H 650 558 50  0000 L CNN
-F 2 "mod:#6" H 550 600 50  0001 C CNN
-F 3 "~" H 550 600 50  0001 C CNN
-	1    550  600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR01
-U 1 1 5FA6206F
-P 550 700
-F 0 "#PWR01" H 550 450 50  0001 C CNN
-F 1 "GNDREF" H 650 550 50  0001 C CNN
-F 2 "" H 550 700 50  0001 C CNN
-F 3 "" H 550 700 50  0001 C CNN
-	1    550  700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D1
 U 1 1 5FC020CB
 P 2150 5800
@@ -1632,7 +1529,7 @@ F 5 "LTST-C191KGKT" V 2150 5800 50  0001 C CNN "Mfr #"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pspice:C C8
+L test-rescue:C-pspice C8
 U 1 1 5FD89C95
 P 8400 5000
 F 0 "C8" H 8550 4950 60  0000 L CNN
@@ -1644,4 +1541,37 @@ F 5 "CL10B104KA8NNNC" H 8400 5000 50  0001 C CNN "Mfr #"
 	1    8400 5000
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7900 1400 7900 1500
+Wire Wire Line
+	7900 1500 8100 1500
+Wire Wire Line
+	8100 1500 8100 1400
+Connection ~ 8600 1450
+$Comp
+L power:GNDREF #PWR029
+U 1 1 600C24E5
+P 8600 1550
+F 0 "#PWR029" H 8600 1300 50  0001 C CNN
+F 1 "GNDREF" V 8605 1422 50  0001 R CNN
+F 2 "" H 8600 1550 50  0001 C CNN
+F 3 "" H 8600 1550 50  0001 C CNN
+	1    8600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1450 8600 1550
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 5FE6521B
+P 4550 1950
+F 0 "#PWR0101" H 4550 1700 50  0001 C CNN
+F 1 "GNDREF" V 4555 1822 50  0001 R CNN
+F 2 "" H 4550 1950 50  0001 C CNN
+F 3 "" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1950 4550 1950
 $EndSCHEMATC
